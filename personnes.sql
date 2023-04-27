@@ -9,7 +9,7 @@ CREATE DATABASE [ApprendreCsharp]
 GO
 CREATE TABLE [Personnes]
 (
-    Id INT PRIMARY KEY NOT NULL, 
+    Id INT PRIMARY KEY IDENTITY(1,1) NOT NULL , 
     Nom NVARCHAR(256),
     Prenom NVARCHAR(256)
 )
