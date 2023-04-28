@@ -16,12 +16,35 @@ SqlConnection connection = new SqlConnection("Server=localhost;Database=Apprendr
         Prenom = "Ariana"
     }); */
 
-///6 - READ WITH DAPPER
-var personnes = connection.Query<Personne>("SELECT * FROM Personnes");
+
+
+
+var dbContext = new MyDbContext();
+
+///8 - EF CORE INSERT
+/* dbContext.Personnes.Add(new Personne 
+{
+    Nom = "Test",
+    Prenom = "Efcore"
+}); 
+
+///A CHAQUE MODIF AVEC EF CORE, TOUJOURS SAUVEGARDER
+dbContext.SaveChanges(); */
+
+///7 - EF CORE READ
+var personnes = dbContext.Personnes.Where(p => p.Prenom == "Ariana").ToList();
+
 foreach (var personne in personnes)
 {
     System.Console.WriteLine($"{personne.Nom} {personne.Prenom}");
 }
+
+///6 - READ WITH DAPPER
+/*var personnes = connection.Query<Personne>("SELECT * FROM Personnes");
+foreach (var personne in personnes)
+{
+    System.Console.WriteLine($"{personne.Nom} {personne.Prenom}");
+}*/
 
 ///PAS BESOIN D OUVRIR LA CONNECTION AVEC DAPPER
 /// connection.Open();

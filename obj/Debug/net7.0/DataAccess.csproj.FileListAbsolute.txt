@@ -49,3 +49,16 @@ C:\wamp64\www\.Net\Section_9\DataAccess\obj\Debug\net7.0\DataAccess.pdb
 C:\wamp64\www\.Net\Section_9\DataAccess\obj\Debug\net7.0\DataAccess.genruntimeconfig.cache
 C:\wamp64\www\.Net\Section_9\DataAccess\obj\Debug\net7.0\ref\DataAccess.dll
 C:\wamp64\www\.Net\Section_9\DataAccess\bin\Debug\net7.0\Dapper.dll
+C:\wamp64\www\.Net\Section_9\DataAccess\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\wamp64\www\.Net\Section_9\DataAccess\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\wamp64\www\.Net\Section_9\DataAccess\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\wamp64\www\.Net\Section_9\DataAccess\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\wamp64\www\.Net\Section_9\DataAccess\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\wamp64\www\.Net\Section_9\DataAccess\bin\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll
+C:\wamp64\www\.Net\Section_9\DataAccess\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\wamp64\www\.Net\Section_9\DataAccess\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\wamp64\www\.Net\Section_9\DataAccess\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\wamp64\www\.Net\Section_9\DataAccess\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\wamp64\www\.Net\Section_9\DataAccess\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\wamp64\www\.Net\Section_9\DataAccess\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\wamp64\www\.Net\Section_9\DataAccess\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
